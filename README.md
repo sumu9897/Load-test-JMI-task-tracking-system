@@ -9,8 +9,6 @@ Apache JMeter is an open-source performance testing tool developed by the Apache
 - [Usage](#usage)
 - [Features](#features)
 - [Run](#run)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
