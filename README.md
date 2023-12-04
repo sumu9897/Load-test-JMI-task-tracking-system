@@ -8,6 +8,7 @@ Apache JMeter is an open-source performance testing tool developed by the Apache
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
+- [Run](#run)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -40,10 +41,17 @@ For more detailed information, refer to the [official documentation](https://jme
 - **Extensibility:** Extend JMeter's functionality through plugins and custom components.
 
 ## Run
-=======================keep your jmx file in bin===========create a folder in bin called "report"
---bash
-sh jmeter -n -t tasktracking.jmx -l report\tasktracking.jtl
 
-sh jmeter -g report\tasktracking.jtl -o report\tasktracking.html
+1. **Keep your JMX file in the `bin` directory.**
+2. **Create a folder in `bin` called "report".**
+3. **Run the following commands:**
+    - For running the test:
+        ```bash
+        sh jmeter -n -t tasktracking.jmx -l report\tasktracking.jtl
+        ```
+    - For generating HTML report:
+        ```bash
+        sh jmeter -g report\tasktracking.jtl -o report\tasktracking.html
+        ```
 
---
+Adjust the paths and filenames as necessary for your specific project. Feel free to further customize the instructions based on your preferences.
