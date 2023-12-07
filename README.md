@@ -38,11 +38,13 @@ For more detailed information, refer to the [official documentation](https://jme
 - **Scripting Support:** Use Beanshell, Groovy, or JavaScript for scripting within test plans.
 - **Extensibility:** Extend JMeter's functionality through plugins and custom components.
 
+## Download JMX file
+ - tasktracking.jmx
+
 ## Run
 
 1. **Keep your JMX file in the `bin` directory.**
-2. **Create a folder in `bin` called "report".**
-3. **Run the following commands:**
+2. **Run the following commands:**
     - For running the test:
         ```bash
         sh jmeter -n -t tasktracking.jmx -l report\tasktracking.jtl
@@ -51,5 +53,9 @@ For more detailed information, refer to the [official documentation](https://jme
         ```bash
         sh jmeter -g report\tasktracking.jtl -o report\tasktracking.html
         ```
+
+## Load Testing
+-Load Testing is a non-functional software testing process in which the performance of software application is tested under a specific expected load. It determines how the software application behaves while being accessed by multiple users simultaneously. The goal of Load Testing is to improve performance bottlenecks and to ensure stability and smooth functioning of software application before deployment.
+
 
 Adjust the paths and filenames as necessary for your specific project. Feel free to further customize the instructions based on your preferences.
