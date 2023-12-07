@@ -39,7 +39,7 @@ For more detailed information, refer to the [official documentation](https://jme
 - **Extensibility:** Extend JMeter's functionality through plugins and custom components.
 
 ## Download JMX file
- - tasktracking.jmx
+ - Create_task.jmx
 
 ## Run
 
@@ -47,11 +47,11 @@ For more detailed information, refer to the [official documentation](https://jme
 2. **Run the following commands:**
     - For running the test:
         ```bash
-        sh jmeter -n -t tasktracking.jmx -l report\tasktracking.jtl
+        sh jmeter -n -t Create_task.jmx -l Create_task.jtl
         ```
     - For generating HTML report:
         ```bash
-        sh jmeter -g report\tasktracking.jtl -o report\tasktracking.html
+        sh jmeter -g Create_task.jtl -o Create_task.html
         ```
 
 ## Load Testing
